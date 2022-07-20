@@ -1,3 +1,32 @@
-.homeDiv {
+.aboutLink {
+  font-size: 8rem;
+  color: black;
+  cursor: pointer;
+  width: auto;
+}
 
+.projectsLink,
+.contactLink {
+  font-size: 7rem;
+  color: black;
+  cursor: pointer;
+  width: auto;
+}
+
+.aboutLink:hover:before {
+  color: darkred;
+  content: "About Me.";
+  width: auto;
+}
+
+.projectsLink:hover:before {
+  color: darkred;
+  content: "My Projects.";
+  width: auto;
+}
+
+.contactLink:hover:before {
+  color: darkred;
+  content: "Contact Me.";
+  width: auto;
 }
