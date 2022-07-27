@@ -2,8 +2,8 @@
 function Header() {
 
   return (
-    <div>
-      <p>test</p>
+    <div className="headerComp flex items-center jusity-center">
+      <p>Test</p>
     </div>
   )
 }
