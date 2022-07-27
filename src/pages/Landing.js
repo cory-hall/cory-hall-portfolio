@@ -1,9 +1,10 @@
 
+
 function Landing() {
 
   return (
-    <section className="landingPage">
-
+    <section className='landingPage' id='landingSection'>
+      <p>LANDING</p>
     </section>
   )
 }

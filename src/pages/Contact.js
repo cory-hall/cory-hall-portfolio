@@ -2,8 +2,8 @@
 function Contact() {
   
   return(
-    <section className="contactPage">
-
+    <section className='contactPage' id='contactSection'>
+      <p>CONTACT ME</p>
     </section>
   )
 }

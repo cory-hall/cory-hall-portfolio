@@ -2,8 +2,8 @@
 function Projects() {
 
   return (
-    <section className="projectsPage">
-
+    <section className='projectsPage' id='projectSection'>
+      <p>PROJECTS</p>
     </section>
   )
 }
