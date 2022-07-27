@@ -2,8 +2,9 @@
 function Landing() {
 
   return (
-    <div className="landingPage">
-    </div>
+    <section className="landingPage">
+
+    </section>
   )
 }
 

@@ -2,9 +2,9 @@
 function About() {
 
   return (
-    <div>
+    <section className="aboutPage">
 
-    </div>
+    </section>
   )
 }
 
