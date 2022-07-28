@@ -2,11 +2,11 @@ import { Link } from 'react-scroll'
 
 import upArrow from '../assets/images/scroll-up-50.png'
 
-function About() {
+function Skills() {
 
   return (
     
-    <section className='aboutPage flex flex-col' id='aboutSection'>
+    <section className='skillsPage flex flex-col' id='skillsSection'>
       <div className='flex justify-end w-full'>
       <Link
           className='pageLink'
@@ -17,9 +17,9 @@ function About() {
           <img src={upArrow} alt='up arrow'></img>
         </Link>
       </div>
-      <p>ABOUT ME</p>
+      <p>SKILLS</p>
     </section>
   )
 }
 
-export default About;
+export default Skills;
