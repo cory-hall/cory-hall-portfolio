@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+  background-color: rgba(90, 90, 90, 1);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -18,7 +19,7 @@ code {
 
 .headerComp {
   height: 10vh;
-  background-color: rgba(211, 211, 211, 0.877);
+  background-color: rgba(90, 90, 90, 0.5);
   position: fixed;
   right: 0;
   left: 0;
@@ -26,11 +27,17 @@ code {
 }
 
 .pageLink {
+  color: #ffffff;
   margin: 20px;
+  font-size: 2em;
+  transition: color 0.5s;
+  text-shadow: 3px 3px #000000
+  
 }
 
 .pageLink:hover {
   cursor: pointer;
+  color: aqua;
 }
 
 .landingPage,
@@ -51,7 +58,7 @@ code {
 }
 
 .landingText {
-  color: #48d1cc;
+  color: #ffffff;
   position: absolute;
   text-align: center;
   top: 40%;
@@ -61,12 +68,12 @@ code {
 
 .aboutPage {
   background: rgb(255, 255, 255);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 10%, rgba(117, 217, 249, 1) 33%, rgba(117, 217, 249, 1) 66%, rgba(247, 247, 247, 1) 90%);
+  background: linear-gradient(180deg, rgba(90, 90, 90, 1) 0%,  rgba(247, 247, 247, 1) 100%);
 }
 
 .footerComp {
   height: 3vh;
-  background-color: rgba(211, 211, 211, 0.877);
+  background-color: rgba(90, 90, 90, 0.5);
   position: fixed;
   right: 0;
   left: 0;

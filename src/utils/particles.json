@@ -12,7 +12,7 @@
           }
       },
       "color": {
-          "value": "#000000"
+          "value": "#ffffff"
       },
       "shape": {
           "type": "circle"
@@ -104,16 +104,16 @@
       "enable": true,
       "cover": {
           "value": {
-              "r": 255,
-              "g": 255,
-              "b": 255
+              "r": 90,
+              "g": 90,
+              "b": 90
           }
       }
   },
   "retina_detect": true,
   "background": {
       "color": "#ffffff",
-      "image": "url('https://i.imgur.com/VbAlfaR.png')",
+      "image": "url('https://i.imgur.com/eFbxhzB.png')",
       "position": "50% 50%",
       "repeat": "no-repeat",
       "size": "cover"
