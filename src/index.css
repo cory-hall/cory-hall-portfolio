@@ -68,20 +68,29 @@ code {
 
 .aboutPage {
   background: rgb(255, 255, 255);
-  background: linear-gradient(180deg, rgba(90, 90, 90, 1) 0%,  rgba(247, 247, 247, 1) 100%);
+  background: linear-gradient(180deg, rgba(90, 90, 90, 1) 5%,  rgba(255, 255, 255, 1) 100%);
 }
 
 .footerComp {
-  height: 3vh;
+  height: 4vh;
   background-color: rgba(90, 90, 90, 0.5);
   position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
   z-index: 9999;
-  transition: all .2s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.footerLink {
+  display: none;
+
 }
 
 .footerComp:hover {
   height: 10vh;
+}
+
+.footerComp:hover .footerLink{
+  display: block;
 }
