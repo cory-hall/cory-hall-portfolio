@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -40,11 +41,14 @@ code {
 }
 
 .landingPage,
-.aboutPage,
 .skillsPage,
 .projectsPage,
 .contactPage {
   height: 100vh;
+  padding-top: 10vh;
+}
+
+.aboutPage {
   padding-top: 10vh;
 }
 
@@ -68,6 +72,14 @@ code {
 .aboutPage {
   background: rgb(255, 255, 255);
   background: linear-gradient(180deg, rgba(90, 90, 90, 1) 5%,  rgba(255, 255, 255, 1) 100%);
+}
+
+.portPic {
+  height: auto;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
 }
 
 .footerComp {
@@ -94,13 +106,33 @@ code {
   display: block;
 }
 
-@media (max-width: 325px) {
+@media (max-width: 425px) {
+  .headerComp {
+    justify-content: center;
+  }
   .pageLink {
-    font-size: 12px;
+    font-size: 14px;
+    text-shadow: 2px 2px #000000;
   }
 
   .landingText {
-    font-size: 32px
+    font-size: 32px;
+    text-shadow: 2px 2px #000000;
+  }
+
+  .aboutHeading {
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000
+  }
+
+  .aboutText {
+    padding: 0px 10px;
+  }
+
+  .portPic {
+    width: 50%;
+    margin: auto;
   }
 }
 
@@ -117,14 +149,28 @@ code {
 @media (min-width: 640px) {
   .pageLink {
     font-size: 20px;
+    text-shadow: 3px 3px #000000
   }
 
   .landingText {
     font-size: 60px;
+    text-shadow: 3px 3px #000000
+  }
+
+  .aboutHeading {
+    font-size: 32px;
+    color: #ffffff;
+    text-shadow: 3px 3px #000000
   }
 
   .aboutText {
     font-size: 16px;
+    padding: 0 12px;
+  }
+
+  .portPic {
+    width: 50%;
+    margin: auto;
   }
 }
 
@@ -137,6 +183,10 @@ code {
     font-size: 72px;
   }
 
+  .aboutHeading {
+    font-size: 40px;
+  }
+
   .aboutText {
     font-size: 18px;
   }
@@ -146,6 +196,16 @@ code {
   .landingText {
     font-size: 90px;
   }
+
+  .aboutText{
+    font-size: 20px;
+    margin: 0px 12px;
+  }
+
+  .portPic {
+    width: 35%;
+    margin-right: 4px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -153,6 +213,12 @@ code {
 }
 
 @media (min-width: 1536px) {
+  .aboutText {
+    font-size: 24px;
+  }
 
+  .portPic {
+    width: 30%;
+  }
 
 }

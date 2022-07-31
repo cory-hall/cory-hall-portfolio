@@ -3,23 +3,22 @@ import portPic from '../assets/images/portPicBNW.png'
 function About() {
 
   return (
-    
-    <section className='aboutPage flex flex-col justify-center items-center w-full lg:flex-row' id='aboutSection'>
-      <div className='aboutText flex p-4 md:my-48 w-full'>
-        <p>
-          I am a full stack web developer specializing in the MERN stack and a recent
-          recipiant of a full stack web development certificate from Michigan State University.
-          I am also a part time student working towards obtaining a Bachelor's Degree in Computer Science.
-          <br></br>
-          <br></br>
-          Through my years of working, mainly in the service industry, I have aquired numerous skills that
-          cannot be taught and are typically only obtained by those that put years within said industry. I 
-          fully plan on leveraging these skills to help create unique experiences from someone who knows exactly
-          what the customer wants.
-        </p>
-      </div>
-      <div className='w-1/2 m-24'>
-        <img src={portPic} alt='Cory Hall'></img>
+
+    <section className='aboutPage justify-center items-center w-full' id='aboutSection'>
+      <h1 className='aboutHeading w-full my-4 text-center'>First, a little about myself.</h1>
+      <div className='w-full items-center justify-center lg:flex'>
+          <p className='aboutText'>
+            I am a full stack web developer specializing in the MERN stack and a recent
+            recipiant of a full stack web development certificate from Michigan State University.
+            I am also a part time student working towards obtaining a Bachelor's Degree in Computer Science.
+            <br></br>
+            <br></br>
+            Throughout my years of working, mainly in the service industry, I have aquired numerous skills that
+            cannot be taught and are typically only obtained by those that put years within said industry. I
+            fully plan on leveraging these skills to help create unique experiences from someone who knows exactly
+            what the customer wants.
+          </p>
+          <img className='portPic pt-4' src={portPic} alt='Cory Hall'></img>
       </div>
     </section>
   )
