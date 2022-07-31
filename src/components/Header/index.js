@@ -4,7 +4,7 @@ function Header() {
 
   return (
     <div className="headerComp w-full flex items-center justify-end">
-      <div className='flex justify-end'>
+      <div className='flex items-center justify-end'>
         <Link
           className='pageLink'
           to='aboutSection'

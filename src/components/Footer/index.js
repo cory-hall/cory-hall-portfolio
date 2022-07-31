@@ -6,7 +6,7 @@ function Footer() {
 
   return (
     <div className="footerComp flex items-center justify-between w-full">
-        <h1 className="footerText pl-12">&copy; 2022 Cory Hall</h1>
+        <h1 className="footerText pl-4">Made By Cory Hall</h1>
         <Link
           className='pageLink footerLink'
           to='landingSection'

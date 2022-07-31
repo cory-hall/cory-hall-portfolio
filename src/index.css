@@ -29,7 +29,6 @@ code {
 .pageLink {
   color: #ffffff;
   margin: 20px;
-  font-size: 2em;
   transition: color 0.5s;
   text-shadow: 3px 3px #000000
   
@@ -63,7 +62,7 @@ code {
   text-align: center;
   top: 40%;
   width: 100%;
-  text-shadow: 5px 5px #000000
+  text-shadow: 5px 5px #000000;
 }
 
 .aboutPage {
@@ -93,4 +92,67 @@ code {
 
 .footerComp:hover .footerLink{
   display: block;
+}
+
+@media (max-width: 325px) {
+  .pageLink {
+    font-size: 12px;
+  }
+
+  .landingText {
+    font-size: 32px
+  }
+}
+
+@media (min-width: 425px) {
+  .pageLink {
+    font-size: 14px;
+  }
+
+  .landingText {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 640px) {
+  .pageLink {
+    font-size: 20px;
+  }
+
+  .landingText {
+    font-size: 60px;
+  }
+
+  .aboutText {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pageLink {
+    font-size: 24px;
+  }
+
+  .landingText {
+    font-size: 72px;
+  }
+
+  .aboutText {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .landingText {
+    font-size: 90px;
+  }
+}
+
+@media (min-width: 1280px) {
+
+}
+
+@media (min-width: 1536px) {
+
+
 }

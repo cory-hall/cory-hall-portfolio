@@ -4,8 +4,8 @@ function About() {
 
   return (
     
-    <section className='aboutPage flex justify-center items-center w-full' id='aboutSection'>
-      <div className='flex m-24 w-1/2'>
+    <section className='aboutPage flex flex-col justify-center items-center w-full lg:flex-row' id='aboutSection'>
+      <div className='aboutText flex p-4 md:my-48 w-full'>
         <p>
           I am a full stack web developer specializing in the MERN stack and a recent
           recipiant of a full stack web development certificate from Michigan State University.

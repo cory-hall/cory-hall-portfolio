@@ -21,7 +21,7 @@ function Landing() {
         loaded={particlesLoaded}
         options={options}
       />
-      <h1 className="landingText text-9xl font-black">Hello,<br></br> My name is Cory.</h1>
+      <h1 className="landingText font-black">Hello,<br></br> My name is Cory.</h1>
     </section>
   )
 }
