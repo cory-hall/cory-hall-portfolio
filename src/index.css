@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: rgba(90, 90, 90, 1);
+  /* background-color: rgba(90, 90, 90, 1); */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -20,7 +20,7 @@ code {
 
 .headerComp {
   height: 10vh;
-  background-color: rgba(90, 90, 90, 0.5);
+  background-color: rgba(90, 90, 90, 0.7);
   position: fixed;
   right: 0;
   left: 0;
@@ -41,14 +41,37 @@ code {
 }
 
 .landingPage,
-.skillsPage,
-.projectsPage,
 .contactPage {
   height: 100vh;
   padding-top: 10vh;
 }
 
+/* .landingPage {
+  position: relative;
+} */
+
 .aboutPage {
+  padding-top: 10vh;
+}
+
+.skillsPage {
+  background-image: url('../src/assets/images/bg-1.png');
+  background-repeat: no-repeat;
+  background-position: center middle;
+  background-size: 100% auto;
+  padding-bottom: 10vh;
+}
+
+.skillHeading {
+  padding-top: 10vh;
+}
+
+.projectsPage {
+  background-image: url('../src/assets/images/bg-2.png');
+  height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center middle;
   padding-top: 10vh;
 }
 
@@ -56,12 +79,8 @@ code {
   height: 90vh
 }
 
-.landingPage {
-  position: relative;
-}
-
 .landingText {
-  color: #ffffff;
+  color: rgb(112, 235, 218);
   position: absolute;
   text-align: center;
   top: 40%;
@@ -113,17 +132,23 @@ code {
   .pageLink {
     font-size: 14px;
     text-shadow: 2px 2px #000000;
+    text-align: center;
   }
 
   .landingText {
-    font-size: 32px;
+    font-size: 38px;
     text-shadow: 2px 2px #000000;
   }
 
   .aboutHeading {
-    font-size: 24px;
+    font-size: 30px;
     color: #ffffff;
     text-shadow: 2px 2px #000000
+  }
+
+  .skillHeading {
+    font-size: 30px;
+    color: #000000;
   }
 
   .aboutText {
@@ -133,6 +158,13 @@ code {
   .portPic {
     width: 50%;
     margin: auto;
+  }
+
+  .wordCloud {
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
   }
 }
 
@@ -163,6 +195,12 @@ code {
     text-shadow: 3px 3px #000000
   }
 
+  .skillHeading {
+    font-size: 32px;
+    color: #000000;
+    text-shadow: 1px 1px #000000
+  }
+
   .aboutText {
     font-size: 16px;
     padding: 0 12px;
@@ -183,7 +221,8 @@ code {
     font-size: 72px;
   }
 
-  .aboutHeading {
+  .aboutHeading,
+  .skillHeading {
     font-size: 40px;
   }
 
