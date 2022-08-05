@@ -15,7 +15,7 @@ function Landing() {
   return (
     <section className='landingPage' id='landingSection'>
       <Particles
-        height="90vh"
+        height="100vh"
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}

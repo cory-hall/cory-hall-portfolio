@@ -3,15 +3,15 @@ import { Link } from 'react-scroll'
 function Header() {
 
   return (
-    <div className="headerComp w-full flex items-center justify-end">
-      <div className='flex items-center justify-end'>
+    <div className="headerComp w-full flex items-center justify-center">
+      <div className='flex items-center justify-center'>
         <Link
           className='pageLink'
           to='aboutSection'
           spy={true}
           smooth={true}
           duration={500}>
-          About Me
+          About
         </Link>
         <Link
           className='pageLink'
@@ -19,7 +19,7 @@ function Header() {
           spy={true}
           smooth={true}
           duration={500}>
-          My Skills
+          Skills
         </Link>
         <Link
           className='pageLink'
@@ -35,7 +35,7 @@ function Header() {
           spy={true}
           smooth={true}
           duration={500}>
-          Contact Me
+          Contact
         </Link>
       </div>
     </div>

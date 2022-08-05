@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+ /* Global Styles */
 body {
-  /* background-color: rgba(90, 90, 90, 1); */
+  background-color: rgba(128, 0, 0, 0.5);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -18,9 +20,23 @@ code {
     monospace;
 }
 
+.landingPage,
+.aboutPage,
+.contactPage,
+.projectsPage,
+.skillsPage {
+  height: 100vh;
+}
+
+#tsparticles {
+  height: 100vh
+}
+
+
+/* Header Styles */
 .headerComp {
-  height: 10vh;
-  background-color: rgba(90, 90, 90, 0.7);
+  height: 5vh;
+  background-color: rgba(90, 90, 90, 0.5);
   position: fixed;
   right: 0;
   left: 0;
@@ -28,11 +44,10 @@ code {
 }
 
 .pageLink {
-  color: #ffffff;
+  color: #800000;
   margin: 20px;
   transition: color 0.5s;
-  text-shadow: 3px 3px #000000
-  
+  text-shadow: 1px 1px #000000;
 }
 
 .pageLink:hover {
@@ -40,45 +55,8 @@ code {
   color: aqua;
 }
 
-.landingPage,
-.contactPage {
-  height: 100vh;
-  padding-top: 10vh;
-}
 
-/* .landingPage {
-  position: relative;
-} */
-
-.aboutPage {
-  padding-top: 10vh;
-}
-
-.skillsPage {
-  /* background-image: url('../src/assets/images/bg-1.png');
-  background-repeat: no-repeat;
-  background-position: center middle;
-  background-size: 100% auto; */
-  padding-bottom: 10vh;
-}
-
-.skillHeading {
-  padding-top: 10vh;
-}
-
-.projectsPage {
-  /* background-image: url('../src/assets/images/bg-2.png'); */
-  height: 100vh;
-  /* background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center middle; */
-  padding-top: 10vh;
-}
-
-#tsparticles {
-  height: 90vh
-}
-
+/* Landing Page Styles */
 .landingText {
   color: rgb(112, 235, 218);
   position: absolute;
@@ -88,19 +66,25 @@ code {
   text-shadow: 5px 5px #000000;
 }
 
+
+/* Skill Page Styles */
+.skillHeading {
+  color: #ffffff;
+}
+
+
+/* About Page Styles */
 .aboutPage {
   background: rgb(255, 255, 255);
-  background: linear-gradient(180deg, rgba(90, 90, 90, 1) 5%,  rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(180deg, rgba(90, 90, 90, 1) 5%,  rgba(128, 0, 0, 0.5)  100%);
 }
 
 .portPic {
   height: auto;
 }
 
-@keyframes blinker {
-  50% { opacity: 0.0; }
-}
 
+/* Footer Styles */
 .footerComp {
   height: 4vh;
   background-color: rgba(90, 90, 90, 0.5);
@@ -125,13 +109,14 @@ code {
   display: block;
 }
 
+
+/* Media Query Styles */
 @media (max-width: 425px) {
   .headerComp {
     justify-content: center;
   }
   .pageLink {
     font-size: 14px;
-    text-shadow: 2px 2px #000000;
     text-align: center;
   }
 
@@ -148,7 +133,7 @@ code {
 
   .skillHeading {
     font-size: 30px;
-    color: #000000;
+    color: #ffffff;
   }
 
   .aboutText {
@@ -168,6 +153,7 @@ code {
   }
 }
 
+
 @media (min-width: 425px) {
   .pageLink {
     font-size: 14px;
@@ -178,10 +164,11 @@ code {
   }
 }
 
+
 @media (min-width: 640px) {
   .pageLink {
     font-size: 20px;
-    text-shadow: 3px 3px #000000
+    text-shadow: 1px 1px #000000
   }
 
   .landingText {
@@ -197,8 +184,8 @@ code {
 
   .skillHeading {
     font-size: 32px;
-    color: #000000;
-    text-shadow: 1px 1px #000000
+    color: #ffffff;
+    text-shadow: 3px 3px #000000
   }
 
   .aboutText {
