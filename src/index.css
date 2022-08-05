@@ -55,10 +55,10 @@ code {
 }
 
 .skillsPage {
-  background-image: url('../src/assets/images/bg-1.png');
+  /* background-image: url('../src/assets/images/bg-1.png');
   background-repeat: no-repeat;
   background-position: center middle;
-  background-size: 100% auto;
+  background-size: 100% auto; */
   padding-bottom: 10vh;
 }
 
@@ -67,11 +67,11 @@ code {
 }
 
 .projectsPage {
-  background-image: url('../src/assets/images/bg-2.png');
+  /* background-image: url('../src/assets/images/bg-2.png'); */
   height: 100vh;
-  background-size: 100%;
+  /* background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center middle;
+  background-position: center middle; */
   padding-top: 10vh;
 }
 
