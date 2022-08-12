@@ -111,7 +111,7 @@
     },
     "retina_detect": true,
     "background": {
-        "color": "#5A5A5A",
+        "color": "#5a5a5a",
         "image": "",
         "position": "50% 50%",
         "repeat": "no-repeat",

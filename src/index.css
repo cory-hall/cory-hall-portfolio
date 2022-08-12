@@ -5,7 +5,7 @@
 
  /* Global Styles */
 body {
-  background-color: rgba(128, 0, 0, 0.5);
+  background-color: rgba(90, 90, 90, 1);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -26,6 +26,7 @@ code {
 .projectsPage,
 .skillsPage {
   height: 100vh;
+  padding-top: 5vh;
 }
 
 #tsparticles {
@@ -44,7 +45,7 @@ code {
 }
 
 .pageLink {
-  color: #800000;
+  color: #000000;
   margin: 20px;
   transition: color 0.5s;
   text-shadow: 1px 1px #000000;
@@ -52,7 +53,7 @@ code {
 
 .pageLink:hover {
   cursor: pointer;
-  color: aqua;
+  color :rgb(112, 235, 218)
 }
 
 
@@ -64,6 +65,9 @@ code {
   top: 40%;
   width: 100%;
   text-shadow: 5px 5px #000000;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
 }
 
 
@@ -72,11 +76,29 @@ code {
   color: #ffffff;
 }
 
+.logoImg {
+  height: 10vh
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-image: url('./assets/images/check-mark.png');
+}
+
+li {
+  transition: color 0.5s;
+  cursor: default;
+}
+
+li:hover {
+  color: rgb(112, 235, 218);
+}
+
 
 /* About Page Styles */
 .aboutPage {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(180deg, rgba(90, 90, 90, 1) 5%,  rgba(128, 0, 0, 0.5)  100%);
 }
 
 .portPic {

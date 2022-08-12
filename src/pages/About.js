@@ -5,8 +5,8 @@ function About() {
   return (
 
     <section className='aboutPage justify-center items-center w-full' id='aboutSection'>
-      <h1 className='aboutHeading w-full my-4 text-center'>First, a little about myself.</h1>
-      <div className='w-full items-center justify-center lg:flex'>
+      <h1 className='aboutHeading w-full text-center'>Who Am I?</h1>
+      <div className='w-5/6 items-center justify-center m-auto lg:flex'>
           <p className='aboutText'>
             I am a full stack web developer specializing in the MERN stack and a recent
             recipiant of a full stack web development certificate from Michigan State University.
